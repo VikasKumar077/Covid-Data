@@ -1,0 +1,467 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(236, 236, 231);
+     width: 100%;
+    height: 100%;
+    position: relative;
+  
+}
+
+.container{
+    width: 100%;
+ 
+    
+}
+
+
+
+
+.container .top{
+    background-color: rgb(37, 37, 34);
+    padding: 10px;
+    text-align: center;
+}
+.date{
+    background-color: rgb(233, 50, 18);
+    color: #fff;
+    letter-spacing: 1px;
+    
+}
+.time{
+    background-color: rgb(235, 49, 16);
+    color: #fff;
+    letter-spacing: 1px;
+
+}
+
+#tophr{
+    width: 30%;
+    text-align: center;
+    margin: 0px auto;
+    height: 20px;
+    background-color: teal;
+   
+}
+.main{
+    background-color: rgb(255, 255, 255);
+    max-width: 950px;
+    margin: 0px auto;
+    padding: 20px;
+    margin-top: 30px;
+}
+.boxes1{
+   
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+width: 100%;
+ 
+ 
+}
+.boxes1 .box{
+    width: calc(30% - 20px);
+  
+}
+.boxes2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    text-align: center;
+ /* margin-top: 40px; */
+
+   margin-top: 20px;
+
+}
+
+.boxes2 .box{
+    width: calc(30% - 20px);
+
+}
+
+
+
+
+
+
+
+.one{
+   /* background: #7F00FF;
+background: linear-gradient(to right, #E100FF, #7F00FF); */
+
+background-color: rgba(0, 0, 0, 0.7);
+color: yellow;
+padding:20px;
+padding-top:  40px ;
+}
+
+.one p{
+font-family: 'Padauk', sans-serif;
+font-weight: bold;
+color: rgb(255, 255, 255);
+
+
+}
+
+.two{
+ background-color: rgb(18, 93, 116);
+
+
+color: yellow;
+padding: 20px;
+padding-top:  40px ;
+
+
+}
+
+
+
+.two p{
+font-family: 'Padauk', sans-serif;
+font-weight: bold;
+color: #fff;
+
+}
+
+.three{
+   background: #e62250ce;  
+/* background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+background: linear-gradient(to right, #FF4B2B, #FF416C);  */
+color: yellow;
+
+
+
+padding: 20px;
+padding-top:  40px ;
+
+}
+
+.three p{
+font-family: 'Padauk', sans-serif;
+font-weight: bold;
+color: rgb(255, 255, 255);
+
+
+}
+.one,.two,.three,.one2,.two2,.three2 span{
+    font-weight: bold;
+   
+   
+}
+
+
+
+
+
+.one2{
+   /* background: #7F00FF; 
+background: linear-gradient(to right, #E100FF, #7F00FF); */
+
+background-color: rgba(23, 128, 63, 0.815);
+color: yellow;
+
+padding: 20px;
+padding-top:  40px ;
+
+}
+
+.one2 p{
+font-family: 'Padauk', sans-serif;
+font-weight: bold;
+color: #fff;
+
+}
+
+.two2{
+   /* background: #F2994A; 
+background: -webkit-linear-gradient(to right, #F2C94C, #F2994A); 
+background: linear-gradient(to right, #F2C94C, #F2994A);  */
+
+background-color: rgba(230, 80, 80, 0.863);
+
+ color: yellow;
+padding: 20px;
+padding-top:  40px ;
+
+
+}
+
+.two2 p{
+font-family: 'Padauk', sans-serif;
+font-weight: bold;
+color: #fff;
+
+}
+
+.three2{
+   background: #FF416C; 
+background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  
+background: linear-gradient(to right, #FF4B2B, #FF416C); 
+padding: 20px;
+padding-top:  40px ;
+color: yellow;
+
+
+}
+
+
+.three2 p{
+font-family: 'Padauk', sans-serif;
+font-weight: bold;
+color: #fff;
+
+}
+
+p i{
+    color: #fff;
+    font-size: 44px;
+    padding: 15px 0px;
+}
+
+.one,.two,.three{
+    width: 220px;
+}
+
+.two,.three{
+    margin-left: 10px;
+}
+
+.two2,.three2{
+    margin-left: 10px;
+}
+
+.one2,.two2,.three2{
+    width: 220px;
+}
+
+#virus_icon{
+   
+   font-size: 30px;
+    animation-name: virus;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+footer{
+    background-color: #111;
+width: 100%;
+    position: absolute;
+    bottom: 10;
+padding: 10px  14px;
+}
+footer .foot p{
+  text-align: center;
+  color: #fff;
+}
+footer .social-icons {
+    text-align: center;
+    margin-top: 8px;
+}
+footer .social-icons i{
+color: rgb(255, 0, 0);
+margin-left: 8px;
+font-size: 20px;
+}
+
+@keyframes virus{
+    0%{
+        
+        color: red;
+    }
+     0%{
+        
+        color: rgb(47, 0, 255);
+    }
+    50%{
+      
+        color: rgba(247, 0, 255, 0.788);
+    }
+     0%{
+        
+        color: rgb(0, 153, 255);
+    }
+    100%{
+        color: rgba(255, 57, 8, 0.863);
+    }
+}
+tr:nth-child(even){background-color: #f2f2f2}
+td:nth-child(4){
+    background-color: rgb(0, 199, 106);
+    color: #fff;
+}
+td:nth-child(5){
+background-color: crimson;
+    color: #fff;
+
+}
+td:nth-child(3){
+    background-color: rgba(219, 180, 3, 0.863);
+    color: #fff;
+}
+td:nth-child(2){
+    background-color: rgb(71, 193, 241);
+}
+
+.acrossindia{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    background-color: rgb(235, 223, 223);
+}
+
+.state-wise{
+    background-color: rgb(255, 255, 255);
+    max-width: 1000px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 60px;
+    padding: 10px 30px;
+   
+    overflow-x: auto;
+}
+
+#table2{
+   
+    margin: 0px auto;
+margin-bottom: 100px;
+  border-collapse: collapse;
+}
+
+#table2 th,td{
+    border: 2px solid #ccc;
+    padding: 10px 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media only screen and (max-width: 947px) {
+
+
+.boxes1 .box{
+
+  
+ margin-bottom: 10px;
+}
+.boxes2 .box{
+ margin-bottom: 10px;
+
+}
+
+  .main {
+    margin: 20px;
+   
+  }
+  
+ 
+  .boxes1{
+    
+      margin: 0px;
+
+  }
+  .one,.two,.three{
+     
+      padding:10px 5px;
+      font-size: 14px;
+  
+  }
+
+
+
+
+    .boxes2{
+    
+      margin: 0px;
+      margin-top: 20px;
+
+  }
+  .one2,.two2,.three2{
+     
+      padding:10px 5px;
+      font-size: 14px;
+  }
+
+
+
+.state-wise{
+        
+    margin: 20px;
+    padding: 10px;
+margin-bottom: 30px;
+     }
+
+table{
+   
+    margin: 0px auto;
+  padding: 0px;
+
+}
+
+table th,td{
+    border: 2px solid #ccc;
+    padding:  2px 15px;
+}
+
+}   
+
+ @media only screen and (max-width: 500px) {
+
+
+
+.boxes1 .box{
+
+    width: 80%;
+    
+
+}
+.boxes1 .one{
+    margin-right: -10px;
+}
+
+
+.boxes2 .box{
+
+    width: 80%;
+    
+
+}
+.boxes2 .one2{
+    margin-right: -10px;
+}
+ }
